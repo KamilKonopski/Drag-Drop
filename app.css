@@ -23,25 +23,25 @@ label {
 
 input,
 textarea {
+    border: 1px solid #ccc;
     font: inherit;
+    max-width: 30rem;
     padding: 0.2rem 0.4rem;
     width: 100%;
-    max-width: 30rem;
-    border: 1px solid #ccc;
 }
 
 input:focus,
 textarea:focus {
-    outline: none;
     background: #fff5f9;
+    outline: none;
 }
 
 button {
-    font: inherit;
     background: #ff0062;
     border: 1px solid #ff0062;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
+    font: inherit;
     padding: 0.75rem 1rem;
 }
 
@@ -56,16 +56,16 @@ button:active {
 }
 
 .projects {
-    margin: 1rem;
     border: 1px solid #ff0062;
+    margin: 1rem;
 }
 
 .projects header {
-    background: #ff0062;
-    height: 3.5rem;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background: #ff0062;
+    display: flex;
+    height: 3.5rem;
+    justify-content: center;
 }
 
 #finished-projects {
@@ -77,8 +77,8 @@ button:active {
 }
 
 .projects h2 {
-    margin: 0;
     color: white;
+    margin: 0;
 }
 
 .projects ul {
@@ -88,10 +88,10 @@ button:active {
 }
 
 .projects li {
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
-    padding: 1rem;
-    margin: 1rem;
     background: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .projects li h2 {
@@ -121,8 +121,8 @@ button:active {
 }
 
 #user-input {
+    background: #f7f7f7;
+    border: 1px solid #ff0062;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #ff0062;
-    background: #f7f7f7;
 }
