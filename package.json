@@ -8,8 +8,7 @@
     "start": "lite-server"
   },
   "keywords": [
-    "typescript",
-    "course"
+    "typescript"
   ],
   "author": "Kamil Konopski",
   "license": "ISC",
